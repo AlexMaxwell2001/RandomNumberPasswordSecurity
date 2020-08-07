@@ -1,0 +1,172 @@
+	#input1{
+			position: absolute;
+			left: 25%;
+			top:20%;
+			text-align: center;
+		}
+		#input2{
+			position: absolute;
+			left: 43%;
+			top:20%;
+			text-align: center;
+		}
+		#label1{
+			position: absolute;
+			left: 20%;
+			top:18%;
+		}
+		#label2{
+			position: absolute;
+			left: 38%;
+			top:18%;
+		}
+		#label3{
+			position: absolute;
+			left: 57%;
+			top:18%;
+		}
+		#button1{
+			background-color: green;
+			color: white;
+			position: absolute;
+			left: 10%;
+			top:20%;
+		}
+		#answer1{
+			position: absolute;
+			left: 57%;
+			top:18%;
+			color: lime;
+		}
+		#warning1{
+			color:red;
+			position: absolute;
+			top:23%;
+			left:20%;
+			visibility: hidden;
+		}
+		#header1{
+			color: white;
+			position: absolute;
+			left: 10%;
+			top:12%;
+		}
+		#input3{
+			position: absolute;
+			left: 30%;
+			top:36%;
+			text-align: center;
+		}
+		#input4{
+			position: absolute;
+			left: 52%;
+			top:36%;
+			text-align: center;
+		}
+		#input5{
+			position: absolute;
+			left: 36%;
+			top:46%;
+			text-align: center;
+		}
+		#input6{
+			position: absolute;
+			left: 64%;
+			top:46%;
+			text-align: center;
+		}
+		#label4{
+			position: absolute;
+			left: 21%;
+			top:34%;
+		}
+		#label5{
+			position: absolute;
+			left: 43%;
+			top:34%;
+		}
+		#label6{
+			position: absolute;
+			left:21%;
+			top:44%;
+		}
+		#label7{
+			position: absolute;
+			left: 49%;
+			top:44%;
+		}
+		#button2{
+			background-color: green;
+			color: white;
+			position: absolute;
+			left: 10%;
+			top:36%;
+		}
+		#answer2{
+			position: absolute;
+			left: 78%;
+			top:37%;
+			color: blue;
+			overflow: auto;
+			word-break:break-word;
+			height:100px;
+			width: 300px;
+		}
+		#warning2{
+			color:red;
+			position: absolute;
+			top:49%;
+			left:20%;
+			visibility: hidden;
+		}
+		#header2{
+			color: white;
+			position: absolute;
+			left:10%;
+			top:28%;
+		}
+		#header3{
+			color: white;
+			position: absolute;
+			left:10%;
+			top:52%;
+		}
+		#label8{
+			position: absolute;
+			left: 21%;
+			top:59%;
+			text-align: center;
+		}
+		#input7{
+			position: absolute;
+			left: 32%;
+			top:61%;
+			text-align: center;
+		}
+		#button3{
+			background-color: green;
+			color: white;
+			position: absolute;
+			left: 10%;
+			top:61%;
+		}
+		#answer3{
+			position: absolute;
+			left: 48%;
+			top:61%;
+			color: red;
+		}
+		#warning4{
+			color:white;
+			position: absolute;
+			top:65%;
+			left:20%;
+			visibility: hidden;
+		}
+		#warning3{
+			color:red;
+			position: absolute;
+			top:65%;
+			left:20%;
+			visibility: hidden;
+		}

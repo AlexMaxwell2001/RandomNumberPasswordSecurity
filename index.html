@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Random Number Generator, Random Password Generator and Password Security Checker</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css"/>
+	<script type="text/javascript" src="js/javascript.js"></script>
+</head>
+<body style="background-color: grey">
+	<h3 id="header1">Random Number Generator:</h3>
+	<button id="button1" onclick="generateNumber();"><strong>Generate Number!</strong></button>
+    <p id="label1"><strong>between</strong></p>
+	<input type="text" id="input1" value="1" placeholder="Enter the Lower Boundary">
+	<p id="label2"><strong>and</strong></p>
+	<input type="text" id="input2" value="100" placeholder="Enter the Upper Boundary">
+	<p id="answer1"><strong>Your Random Number is 48</strong></p>
+	<p id="warning1" ><strong>Please enter a smaller number for the lower boundary than the upper boundary!</strong></p>
+	<h3 id="header2">Random Password Generator:</h3>
+	<button id="button2" onclick="generatePassword();"><strong>Generate Password!</strong></button>
+	<p id="label4"><strong>Password length:</strong></p>
+	<input type="text" id="input3" value="15" placeholder="Enter the Length of the Password">
+	<p id="label5"><strong>Number of Digits:</strong></p>
+	<input type="text" id="input4" value="2" placeholder="Enter the Number of Digits">
+	<p id="label6"><strong>Number of Special Characters:</strong></p>
+	<input type="text" id="input5" value="2" placeholder="Enter the numbers of Special Characters">
+	<p id="label7"><strong>Number of Upper Case letters:</strong></p>
+	<input type="text" id="input6" value="2" placeholder="Enter the numbers of Upper Case Letters">
+	<div id="answer2"><strong>Your Password is Du4*nB#dkslfke0</strong></div>
+	<p id="warning2" ><strong>Please enter a longer password length than the combined number of Digits, Special Characters and Upper Case Letters!</strong></p>
+	<h3 id="header3">Password Security Checker:</h3>
+	<p id="label8"><strong>Enter your Password:</strong></p>
+	<input type="text" id="input7" value="Password123" placeholder="Enter a Password">
+	<button id="button3" onclick="checkSecurity();"><strong>Check Security!</strong></button>
+	<div id="answer3"><strong>Your Password Strength is The Worst</strong></div>
+	<p id="warning3" ><strong>The Length of your Password is too short!</strong>(Minimum length is 8)</p>
+	<p id="warning4" ><strong>Try Increasing length, Amount of Numbers, Uppercase and Special Characters!</strong></p>
+</body>
+</html>
